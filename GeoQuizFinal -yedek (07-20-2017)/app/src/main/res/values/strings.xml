@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GeoQuizFinal</string>
+
+    <string name="nickname_hint">Enter Your Nickname</string>
+    <string name="next_button">Next</string>
+    <string name="start_button">Start</string>
+    <string name="emptyNickname">Please enter a nickname!</string>
+
+    <string name="restart_button">Start A New Game</string>
+    <string name="screenshot_button">Take A Screenshot</string>
+
+
+
+    <string name="question1">Aşağıdakilerden hangisi aşağıdadır?</string>
+    <string name="question1answer1">Ben değilim!</string>
+    <string name="question1answer2">Ben de </string>
+    <string name="question1answer3">Ben hiç değilim</string>
+    <string name="question1answer4">pEKİ BEN aşağıdayım diyelim</string>
+
+
+    <string name="already_answered">You already answered this question!</string>
+    <string name="no_going_back">You can not go back now!</string>
+    <string name="click_one_more">Click back again to exit!</string>
+    <string name="first_question_no_back">This is the first question.</string>
+
+    <string name="bravo">Bravo XD</string>
+
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+</resources>
