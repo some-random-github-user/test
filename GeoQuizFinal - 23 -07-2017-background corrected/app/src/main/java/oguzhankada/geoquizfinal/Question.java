@@ -2,23 +2,13 @@ package oguzhankada.geoquizfinal;
 
 import java.io.Serializable;
 
-/**
- * Created by Orklar on 7/19/2017.
- */
-
 public class Question implements Serializable {
 
-
-    private int mTextResId;
-    private int mRightAnswer;
-    private boolean mIsAnswered;
+    private int mTextResId, mRightAnswer, mQuestionTime, mGivenAnswer;
+    private boolean mIsAnswered, mIsAnswerTrue;
     private Answer[] mAnswers;
-    private  boolean mIsAnswerTrue;
-    private int mQuestionTime; //seconds
-    private int mGivenAnswer;
 
-
-    //constructor for question
+    //constructor
     public Question(int textResId, int rightAnswer, Answer[] answers, int time) {
         mTextResId = textResId;
         mRightAnswer = rightAnswer;
@@ -52,7 +42,6 @@ public class Question implements Serializable {
     public void setTextResId(int textResId) {
         mTextResId = textResId;
     }
-
 
     public boolean isAnswerTrue() {
         return mIsAnswerTrue;
