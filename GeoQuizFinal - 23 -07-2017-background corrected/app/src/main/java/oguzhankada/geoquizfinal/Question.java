@@ -2,6 +2,7 @@ package oguzhankada.geoquizfinal;
 
 import java.io.Serializable;
 
+<<<<<<< HEAD
 public class Question implements Serializable {
 
     private int mTextResId, mRightAnswer, mQuestionTime, mGivenAnswer;
@@ -9,6 +10,25 @@ public class Question implements Serializable {
     private Answer[] mAnswers;
 
     //constructor
+=======
+/**
+ * Created by Orklar on 7/19/2017.
+ */
+
+public class Question implements Serializable {
+
+
+    private int mTextResId;
+    private int mRightAnswer;
+    private boolean mIsAnswered;
+    private Answer[] mAnswers;
+    private  boolean mIsAnswerTrue;
+    private int mQuestionTime; //seconds
+    private int mGivenAnswer;
+
+
+    //constructor for question
+>>>>>>> 11be444eea567caf2754cadfe40add0954f1c54d
     public Question(int textResId, int rightAnswer, Answer[] answers, int time) {
         mTextResId = textResId;
         mRightAnswer = rightAnswer;
@@ -19,10 +39,20 @@ public class Question implements Serializable {
         mGivenAnswer = 99;
     }
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 11be444eea567caf2754cadfe40add0954f1c54d
     public int getmRightAnswer() {
         return mRightAnswer;
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11be444eea567caf2754cadfe40add0954f1c54d
     public boolean IsAnswered() {
         return mIsAnswered;
     }
@@ -43,6 +73,10 @@ public class Question implements Serializable {
         mTextResId = textResId;
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11be444eea567caf2754cadfe40add0954f1c54d
     public boolean isAnswerTrue() {
         return mIsAnswerTrue;
     }

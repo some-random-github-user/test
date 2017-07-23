@@ -36,17 +36,28 @@ public class ScoreScreenActivity extends AppCompatActivity {
 
         mRestartButton =(Button)findViewById(R.id.newGame_button);
 
+<<<<<<< HEAD
         //restart button listener
+=======
+
+        //set onClick listener to the restart button
+
+>>>>>>> 11be444eea567caf2754cadfe40add0954f1c54d
         mRestartButton.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11be444eea567caf2754cadfe40add0954f1c54d
                 Intent restartIntent = new Intent(ScoreScreenActivity.this, NicknameActivity.class);
                 startActivity(restartIntent);
             }
         });
     }
 
+<<<<<<< HEAD
     @Override
     public void onBackPressed() {
         //toaster
@@ -54,5 +65,22 @@ public class ScoreScreenActivity extends AppCompatActivity {
         messageResId = R.string.no_going_back;
         Toast.makeText(this, messageResId, Toast.LENGTH_LONG)
                 .show();
+=======
+
+    @Override
+    public void onBackPressed() {
+        //toast sending part
+
+        int messageResId = 0;
+
+
+        messageResId = R.string.no_going_back;
+
+
+        Toast.makeText(this, messageResId, Toast.LENGTH_LONG)
+                .show();
+
+        //end of toast
+>>>>>>> 11be444eea567caf2754cadfe40add0954f1c54d
     }
 }

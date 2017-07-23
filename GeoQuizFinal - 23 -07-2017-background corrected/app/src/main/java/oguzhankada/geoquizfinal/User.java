@@ -2,6 +2,13 @@ package oguzhankada.geoquizfinal;
 
 import java.io.Serializable;
 
+<<<<<<< HEAD
+=======
+/**
+ * Created by Orklar on 7/19/2017.
+ */
+
+>>>>>>> 11be444eea567caf2754cadfe40add0954f1c54d
 public class User implements Serializable {
 
     private String mUserNickname;
